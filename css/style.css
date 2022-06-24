@@ -1,0 +1,69 @@
+body {
+    background: rgb(7, 10, 160);
+}
+
+.img {
+    width: 100%;
+    height: 110vh;
+    background: url(../images/1172-730x456.jpg) center/ cover no-repeat;
+}
+
+#map {
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 800px;
+    height: 600px;
+}
+
+.always {
+    width: 1200px;
+    height: 100vh;
+    margin: 40px auto;
+    border-radius: 50px;
+}
+
+.output {
+    width: 800px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#text__content {
+    margin-top: 40px;
+    font-family: unset;
+    color: rgba(27, 23, 23, 0.719);
+}
+
+.search__name {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+
+#inp {
+    width: 700px;
+    height: 44px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.676);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-align: center;
+    margin: 0 25px;
+}
+
+#btn {
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+    background: black;
+    color: blanchedalmond;
+
+}
+
+#btn:hover {
+
+    background: rgba(23, 202, 3, 0.65)
+}
